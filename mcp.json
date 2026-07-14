@@ -1,0 +1,7 @@
+{
+    "mcpServers": {
+        "autonoma": {
+            "url": "https://api.autonoma.app/v1/mcp/debug"
+        }
+    }
+}

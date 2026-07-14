@@ -1,0 +1,6 @@
+{
+    "autonoma": {
+        "command": "npx",
+        "args": ["-y", "mcp-remote", "https://api.autonoma.app/v1/mcp/debug"]
+    }
+}

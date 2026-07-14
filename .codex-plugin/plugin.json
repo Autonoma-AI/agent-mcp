@@ -1,0 +1,25 @@
+{
+    "name": "autonoma",
+    "version": "0.1.0",
+    "description": "Debug why an Autonoma preview deployment broke - read live deploy status, build and app logs, and a diagnosis, then fix a missing secret or preview config from inside your repo.",
+    "author": {
+        "name": "Autonoma AI",
+        "email": "support@autonoma.app",
+        "url": "https://autonoma.app"
+    },
+    "homepage": "https://autonoma.app",
+    "repository": "https://github.com/Autonoma-AI/agent-mcp",
+    "license": "MIT",
+    "keywords": ["autonoma", "e2e-testing", "preview-deployment", "debugging"],
+    "mcpServers": "./.mcp.json",
+    "interface": {
+        "displayName": "Autonoma",
+        "shortDescription": "Debug broken Autonoma preview deploys from your coding agent",
+        "longDescription": "Autonoma runs your end-to-end tests against a per-PR preview deployment of your app. When a preview fails to build or deploy, this plugin's MCP tools let your agent read the live evidence (deploy status, build and app logs, a rule-based diagnosis, secret status) and fix the cause: set a missing secret value or edit the preview's build/wiring config, then confirm the fix.",
+        "category": "Productivity",
+        "developerName": "Autonoma AI",
+        "websiteURL": "https://autonoma.app",
+        "privacyPolicyURL": "https://autonoma.app/privacy",
+        "termsOfServiceURL": "https://autonoma.app/terms"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "autonoma",
+    "description": "Debug why an Autonoma preview deployment broke - read live deploy status, build and app logs, and a diagnosis, then fix a missing secret or preview config from inside your repo.",
+    "version": "0.1.0",
+    "author": {
+        "name": "Autonoma AI",
+        "email": "support@autonoma.app"
+    },
+    "homepage": "https://autonoma.app",
+    "repository": "https://github.com/Autonoma-AI/agent-mcp",
+    "license": "MIT",
+    "keywords": ["autonoma", "e2e-testing", "preview-deployment", "debugging"],
+    "mcpServers": "./mcp.json"
+}
