@@ -1,6 +1,7 @@
 {
     "name": "autonoma",
-    "description": "Debug why an Autonoma preview deployment broke - read live deploy status, build and app logs, and a diagnosis, then fix a missing secret or preview config from inside your repo.",
+    "displayName": "Autonoma",
+    "description": "Debug and configure your Autonoma preview deployment without leaving your repo: read live deploy status, build and app logs, and a diagnosis when something's broken, then fix it - edit the build/wiring config or set a missing secret - and confirm the deploy comes back up.",
     "version": "0.1.0",
     "author": {
         "name": "Autonoma AI",
@@ -10,5 +11,7 @@
     "repository": "https://github.com/Autonoma-AI/agent-mcp",
     "license": "MIT",
     "keywords": ["autonoma", "e2e-testing", "preview-deployment", "debugging"],
+    "category": "developer-tools",
+    "tags": ["testing", "deployment", "debugging", "ci-cd"],
     "mcpServers": "./mcp.json"
 }
