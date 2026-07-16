@@ -36,17 +36,9 @@ mcp.json                     MCP server config Cursor's manifest points to (remo
 
 Both manifests describe the same remote server; each marketplace just expects its own manifest filename and config shape.
 
-## Submitting
+## Using it locally
 
-- **Cursor Directory** (community): https://cursor.directory/plugins/autonoma - **published**.
-- **Cursor Marketplace** (official): https://cursor.com/marketplace/publish - paste this repo's URL. Manual review, plugin must stay open source.
-- **Codex**: anyone can already add this repo directly as a local marketplace (see below) - no review needed, just not centrally discoverable. The official OpenAI Apps/plugin directory (shared between ChatGPT and Codex) is a heavier submission at `platform.openai.com/plugins`: requires an org with "Apps Management: Write" access, verified developer/business identity, domain verification (a token at `https://autonoma.app/.well-known/openai-apps-challenge`), tool `readOnlyHint`/`openWorldHint`/`destructiveHint` annotations, and exactly 5 positive + 3 negative written test cases.
-
-Before submitting anywhere, add a logo asset and double check `privacyPolicyURL` / `termsOfServiceURL` in `.codex-plugin/plugin.json` resolve to real pages.
-
-## Local testing
-
-Verified working end to end against production with both CLIs:
+This plugin is published on [Cursor Directory](https://cursor.directory/plugins/autonoma). You can also install it directly, without going through a marketplace, with either CLI:
 
 **Cursor** - install the server directly (this is also what "Add to Cursor" on a marketplace listing ultimately writes):
 
